@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background: #1e1a20;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+.section
+{   display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.logo{
+    position:absolute;
+    top: 4vmin;
+    left: 10vmin;
+}
+.customPhone{
+    color: #66FCF1;
+    font-family: Montserrat;
+    font-size: 2vmax;
+}
+.content1{
+    position: absolute;
+    top: 35vmin;
+    left: 20vmin;
+    font-family: Dosis;
+    color: #66FCF1;
+    font-size: 10vmin;
+    line-height: 10vmin;
+    align-items: center;
+    letter-spacing: 0.2vmin;
+    word-spacing: 1.5vmin;
+}
+.buttom1{
+    display: flex;
+    margin-top: 2vmin;
+    margin-top: 5vmin;
+}
+.homePageBtn{
+    font-size: 4vmin;
+    word-spacing: 0vmin;
+    padding-top: 0%;
+
+}
+.getStarted{
+    position: relative;
+    font-weight: 0.1vmin;
+    background-color: #66FCF1;
+    color: black;
+    padding-left: 3vmin;
+    padding-right: 3vmin;
+    padding-top: 0.1vimn;
+    border-radius: 20vmax;
+}
+.login{
+    border-radius: 20vmax;
+    border-color: #66FCF1;
+    border-style: solid;
+    justify-content: center;
+    width: 25vmin;
+    padding-left: 11.5%;
+    margin-inline-start: 4vmin;
+    font-weight: 0.1vmin;
+}
+
+.heading{
+    font-size: 6vmin;
+    padding: 3%;
+    color: #66FCF1;
+}
+.individual{
+    display: flex;
+    padding-left: 9%;
+    padding-top:2% ;
+    font-size: 4vmin;
+    color: #66FCF1;
+}
+.btns{
+    display: flex;
+    font-size: 3.8vmin;
+    padding-left: 58%;
+    color: #66FCF1;
+}
+.btn{
+    padding-left: 8%;
+    padding-top: 4%;
+}
+.value{
+    padding-left: 7%;
+}
+.values
+{   
+    padding-left: 20%;
+    display: flex;
+}
+.processorValue{
+    padding-left: 22.6%;
+}
+.ramValue{
+    padding-left: 29.8%;
+}
+.storageValue{
+    padding-left: 24.9%;
+}
+.cameraValue{
+    padding-left: 16.2%;
+}
+.sec_section{
+        display: flex;
+        flex-direction: column;
+}
+
